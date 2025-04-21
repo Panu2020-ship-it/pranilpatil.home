@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pranil Patil - Home Location</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #1f3f74;
+      color: white;
+      width: 100%;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .subheading {
+      font-size: 18px;
+      margin-top: 8px;
+      color: #ddd;
+    }
+
+    .map-container {
+      margin: 30px;
+      width: 90%;
+      max-width: 900px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      background: white;
+    }
+
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+    }
+
+    footer {
+      margin: 20px 0;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Pranil Patil</h1>
+  <div class="subheading">🏠 My Home Location – Ladegaon, Maharashtra</div>
+</header>
+
+<div class="map-container">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1349.1471099885784!2d74.22138949093932!3d16.976307195888968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc10a74fa4fb095%3A0xfe27162168f6b3e5!2sX6GC%2B9HH%2C%20Ladegav%2C%20Maharashtra%20415401!5e0!3m2!1sen!2sin!4v1745229367547!5m2!1sen!2sin" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+<footer>
+  &copy; 2025 Pranil Patil. All rights reserved.
+</footer>
+
+</body>
+</html>
